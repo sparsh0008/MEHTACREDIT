@@ -1,6 +1,5 @@
 from datetime import datetime
 import mysql.connector as conn
-import mini
 
 con = conn.Connect(host="localhost", user="root", password="Sparsh@08", database="mehta")
 cur = con.cursor()

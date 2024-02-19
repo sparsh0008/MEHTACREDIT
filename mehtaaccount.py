@@ -1,4 +1,3 @@
-from datetime import datetime
 import mysql.connector as conn
 
 con = conn.Connect(host="localhost", user="root", password="Sparsh@08", database="mehta")
